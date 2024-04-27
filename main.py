@@ -1,7 +1,7 @@
 import os
 import argparse
 from dotenv import load_dotenv
-from rag_context_miner.core import mine_context
+from rag_code_utils.core import mine_context
 
 # Load environment variables from .env file
 load_dotenv()

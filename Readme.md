@@ -1,4 +1,6 @@
-# RAG Context Miner
+# RAG Code Utils
+
+## RAG Py Context Miner
 
 This tool is designed to extract the inheritance tree of a specified class and save it in a file. It searches for the class or function within the specified path and the provided virtual environment, extracting the relevant code from the repository. This process enhances the efficiency of RAG applications by providing the essential code context.
 
