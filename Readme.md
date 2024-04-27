@@ -10,7 +10,7 @@ The purpose of this tool is to furnish RAG with the minimal code context necessa
 
 ## Usage
 
-provide the following variables to the function:
+provide the following variables to the function in `.env` file or as arguments to the script:
 
 * Class or function to extract code for
 `TARGET = 'your_target_class_or_function'`
@@ -27,9 +27,8 @@ provide the following variables to the function:
 You either run the script with the following arguments:
 
 ```bash
-main.py -t TARGET -v VENV_PATH -o OUTPUT_FILE -r REPO_PATH
-the following arguments are required: -t/--target, -v/--venv, -o/--output, -r/--repo
+python main.py -t TARGET -v VENV_PATH -o OUTPUT_FILE -r REPO_PATH
+# the following arguments are required: -t/--target, -v/--venv, -o/--output, -r/--repo
 ```
 
-Or you fill these values in `.env` file and run the script without arguments.
 You still can provide the `-t` argument to change your class target.
