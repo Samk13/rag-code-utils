@@ -2,6 +2,8 @@
 #
 # Copyright (C) 2024 Sam Arbid.
 
-"""RAG code utils package."""
+"""RAG Code Utils"""
 
-__version__ = "0.1.0"
+from setuptools import setup
+
+setup()

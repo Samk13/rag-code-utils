@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#
+# Copyright (C) 2024 Sam Arbid.
+
 import ast
 import os
 
